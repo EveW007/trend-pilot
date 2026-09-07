@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kronos K-line Overlay"
+  short_description: "Use Kronos forecasts as a guarded confirmation layer"
+  default_prompt: "Evaluate shortlisted US stocks with Kronos forecasts as a secondary confirmation signal, preserving technical, event, risk, and human-approval gates."

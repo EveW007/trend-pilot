@@ -1,0 +1,30 @@
+{
+  "status": "experimental-secondary-confirmation-only",
+  "source": {
+    "repository": "https://github.com/shiyu-coder/Kronos.git",
+    "commit": "67b630e67f6a18c9e9be918d9b4337c960db1e9a",
+    "local_path": "third_party/Kronos"
+  },
+  "model": {
+    "repo_id": "NeoQuasar/Kronos-small",
+    "revision": "901c26c1332695a2a8f243eb2f37243a37bea320",
+    "local_path": "models/kronos/Kronos-small",
+    "max_context": 512
+  },
+  "tokenizer": {
+    "repo_id": "NeoQuasar/Kronos-Tokenizer-base",
+    "revision": "0e0117387f39004a9016484a186a908917e22426",
+    "local_path": "models/kronos/Kronos-Tokenizer-base"
+  },
+  "default_inference": {
+    "temperature": 0.6,
+    "top_p": 0.9,
+    "sample_count": 1
+  },
+  "safety": {
+    "universe_selection": false,
+    "position_sizing": false,
+    "proposal_approval": false,
+    "order_submission": false
+  }
+}

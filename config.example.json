@@ -1,0 +1,43 @@
+{
+  "database_path": "data/trendpilot.sqlite3",
+  "watchlist": ["AAPL", "MSFT", "NVDA", "META", "MU", "AMZN", "GOOGL", "AVGO", "AMD", "TSM"],
+  "benchmark": "SPY",
+  "account": {
+    "net_liquidation": 100000,
+    "risk_per_trade_pct": 0.0035,
+    "max_position_pct": 0.10,
+    "max_total_open_risk_pct": 0.02
+  },
+  "scanner": {
+    "vcp_lookback": 30,
+    "max_box_width_pct": 0.18,
+    "setup_distance_pct": 0.03,
+    "breakout_rvol": 1.5,
+    "minimum_price": 10,
+    "minimum_average_dollar_volume": 20000000,
+    "minimum_score": 70,
+    "max_holding_days": 20
+  },
+  "universe": {
+    "source": "nasdaq-trader",
+    "include_etfs": false,
+    "include_adrs": true,
+    "batch_size": 75,
+    "recommendation_count": 30,
+    "watch_score_floor": 60,
+    "minimum_market_cap": 1000000000,
+    "minimum_session_dollar_volume": 1000000,
+    "max_liquid_symbols": 1500,
+    "max_recommendations_per_sector": 5,
+    "max_recommendations_per_industry": 3
+  },
+  "broker": {
+    "mode": "dry-run",
+    "host": "127.0.0.1",
+    "port": 7497,
+    "client_id": 71,
+    "account_id": "DU_PAPER_ACCOUNT",
+    "paper_only": true,
+    "live_trading_enabled": false
+  }
+}

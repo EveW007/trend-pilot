@@ -1,0 +1,16 @@
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.venv/
+.venv-kronos/
+models/kronos/
+data/
+reports/
+third_party/
+*.sqlite3
+*.log
+.env
+.env.*
+.DS_Store
+.ipynb_checkpoints/
+config.json
