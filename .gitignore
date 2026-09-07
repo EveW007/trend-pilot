@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+dist/
+build/
+*.egg-info/
+
+# Local settings and generated artifacts
+.env
+config.json
+data/
+reports/
+models/
+*.sqlite3
+*.csv
+*.parquet
+

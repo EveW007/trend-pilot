@@ -1,0 +1,18 @@
+{
+  "symbols": ["AAPL", "META", "MU", "NVDA", "DRAM"],
+  "benchmark": "SPY",
+  "scanner": {
+    "vcp_lookback": 30,
+    "max_box_width_pct": 0.18,
+    "setup_distance_pct": 0.03,
+    "breakout_rvol": 1.5,
+    "minimum_price": 10.0,
+    "minimum_average_dollar_volume": 20000000.0
+  },
+  "broker": {
+    "mode": "dry-run",
+    "account_id": "",
+    "paper_only": true,
+    "live_trading_enabled": false
+  }
+}
